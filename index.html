@@ -1,192 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shine-Vibes</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <header>
-        <nav>
-            <a [href="#" ]>Inicio</a>
-            <a [href="#" ]>Acerca de</a>
-            <a [href="#" ]>Portafolio</a>
-            <a [href="#" ]>Servicios</a>
-            <a [href="#" ]>Contacto</a>
-        </nav>
-        <section class="form-register">
-            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Apellido">
-            <input class="controls" type="email" name="nombres" id="nombres" placeholder="Ingrese su Correo">
-            <input class="controls" type="submit" value="Registrar">
-        </section>
-        <section class="textos-header">
-            <h1>Potencia tus Ventas al menos un 200%</h1>
-            <h2>Con una pagina web potente</h2>
-        </section>
-        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                style="height: 100%; width: 100%;">
-                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #fff;"></path>
-            </svg></div>
-
-
-    </header>
     <main>
-        <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Nuestro producto</h2>
-            <div class="contenedor-sobre-nosotros">
-                <img src="img/Velas2.png" alt="" class="imagen-about-us">
-                <div class="contenido-textos">
-                    <h3><span>1</span>Los mejores productos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, iusto fugit deleniti amet, dolores,
-                        quae quia corrupti facere maxime commodi laudantium eveniet fuga architecto. Excepturi,
-                        necessitatibus consectetur! Neque, corrupti tempora!</p>
-                    <h3><span>1</span>Los mejores productos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, iusto fugit deleniti amet, dolores,
-                        quae quia corrupti facere maxime commodi laudantium eveniet fuga architecto. Excepturi,
-                        necessitatibus consectetur! Neque, corrupti tempora!</p>
-                    <h3><span>1</span>Los mejores productos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, iusto fugit deleniti amet, dolores,
-                        quae quia corrupti facere maxime commodi laudantium eveniet fuga architecto. Excepturi,
-                        necessitatibus consectetur! Neque, corrupti tempora!</p>
-                </div>
-
-            </div>
+        <section id="formContainer">
+            <h1>USUARIOS</h1>
+            <form>
+                <label for="inNickname">NickName</label>
+                <input id="inNickname" type="text" placeholder="E AGC">
+                <label for="inEmail">Correo Electronico</label>
+                <input id="inEmail" type="email" placeholder="example@example.com">
+                <label for="inPassword">password</label>
+                <input id="inPassword" type="password" />
+                <button id="btnAddUpdate"type="submit"> GUARDAR</button>
+            </form>
         </section>
-        <section class="portafolio">
-            <div class="contenedor">
-                <h2 class="Portafolio">Portafolio</h2>
-                <div class="galeria-port">
-                    <div class="imagen-port">
-                        <img src="img/Velas1.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.webp" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Velas3.jfif" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.webp" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Velas4.jfif" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.webp" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Velas5.webp" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.webp" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Velas6.webp" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.webp" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Velas7.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.webp" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/Velas8.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.webp" alt="">
-                            <p>Nuestro trabajo</p>
-                        </div>
-                        
-                    </div>
-
-                </div>
-            </div>
+        <section id="tableContainer">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>NickName</th>
+                        <th>Correo</th>
+                        <th>Contraseña</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </section>
-
-        <section class="clientes contenedor"></section>
-        <h2 class="titulo">Que dicen nuestros clientes</h2>
-        <div class="card">
-            <div class="card">
-                <img src="img/face1.jpg" alt="">
-                <div class="contenido-texto-card">
-                    <h4>Name</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, magni?</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="img/face2.png" alt="">
-                <div class="contenido-texto-card">
-                    <h4>Name</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, magni?</p>
-                </div>
-            </div>
-
-        </div>
-
-        </section>
-        <section class="about-services">
-            <div class="contenedor">
-                <h2 class="titulo">Nuestros servicios</h2>
-                <div class="servicio-cont">
-                    <div class="servicio-individual">
-                        <img src="img/servicio1.jpg" alt="">
-                        <h3>name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sed?</p>
-                    </div>
-                    <div class="servicio-individual">
-                        <img src="img/servicio2.webp" alt="">
-                        <h3>name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sed?</p>
-                    </div>
-                    <div class="servicio-individual">
-                        <img src="img/servicio3.jpg" alt="">
-                        <h3>name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sed?</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
 
     </main>
-    <footer>
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <h4>Phone</h4>
-                <p>3313141318</p>
-            </div>
-            <div class="content-foo">
-                <h4>Email</h4>
-                <p>armando.garceb@gmail.com</p>
-            </div>
-            <div class="content-foo">
-                <h4>Location</h4>
-                <p>Guadalajara</p>
-            </div>
-        </div>
-        <h2 class="titulo-final">&copy; ArmandoG0 | Michll </h2>
-    </footer>
 
+    <script src="./js/model/User.js"></script>
+    <script src="./js/controller/user.js"></script>
+    <script src="./js/index.js"></script>
 </body>
-
 </html>
